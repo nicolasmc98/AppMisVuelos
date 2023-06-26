@@ -49,7 +49,7 @@ export const Signup = () => {
         <View style={{ alignItems: 'center', paddingBottom: 50 }}>
           <Image
             source={require('../images/Avion.png')}
-            style={{height:200,width:350, opacity: 0.5, borderRadius:20}}
+            style={{height:200,width:350, opacity: 1, borderRadius:20}}
           />
         </View>
 
