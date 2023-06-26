@@ -44,12 +44,12 @@ export const Signup = () => {
 
   }
   return (
-    <SafeAreaView style={{ flex: 1, justifyContent: 'center' }}>
+    <SafeAreaView style={{ flex: 1, justifyContent: 'center', backgroundColor: "#f1d99e" }}>
       <View style={{ paddingHorizontal: 25 }}>
         <View style={{ alignItems: 'center', paddingBottom: 50 }}>
           <Image
             source={require('../images/Avion.png')}
-            style={{height:200,width:350}}
+            style={{height:200,width:350, opacity: 0.5, borderRadius:20}}
           />
         </View>
 
